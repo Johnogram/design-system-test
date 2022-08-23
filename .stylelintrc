@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-recommended",
+  "customSyntax": "@stylelint/postcss-css-in-js",
+  "rules": {
+    "color-no-hex": true,
+    "value-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "declaration-no-important": true,
+    "length-zero-no-unit": true,
+    "declaration-property-unit-allowed-list": {
+      "font-size": ["rem"],
+      "line-height": []
+    }
+  }
+}

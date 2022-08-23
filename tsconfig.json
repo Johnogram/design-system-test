@@ -1,0 +1,19 @@
+{
+  "include": ["src"],
+  "exclude": ["**/*.test.js"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "es2019",
+    "module": "None",
+    "types": [
+      "node",
+      "jest",
+      "@types/jest"
+    ],
+    "declaration": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+  }
+}

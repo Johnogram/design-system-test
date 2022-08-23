@@ -1,0 +1,52 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": [
+    "@dazn/acc",
+    "@dazn/acc/react"
+  ],
+  "rules": {
+    "import/no-unresolved": [
+      "error"
+    ],
+    "react/prop-types": "error",
+    "react/no-unused-prop-types": "error"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": [
+        "@typescript-eslint/eslint-plugin"
+      ],
+      "rules": {
+        "no-unused-vars": "off",
+        "no-undef": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "argsIgnorePattern": "^_"
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.d.ts"
+      ],
+      "rules": {
+        "no-useless-constructor": "off"
+      }
+    },
+    {
+      "files": ["*.story.js"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    }
+  ]
+}
