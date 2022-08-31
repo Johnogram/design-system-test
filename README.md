@@ -7,6 +7,9 @@
 
 ## Shoelace
 [Docs](https://shoelace.style/)
+```
+Doesn't support @emotion/styled
+```
 
 - Uses vanila CSS
   - Imported using React's native CSS support
