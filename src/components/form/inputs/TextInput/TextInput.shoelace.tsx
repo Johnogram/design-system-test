@@ -3,6 +3,6 @@ import './TextInput.shoelace.css';
 
 export const TextInput: React.FC = (props) => {
   return (
-    <SlInput className='textInput' {...props} />
+    <SlInput className='textInputShoeLace' {...props} />
   );
 }
