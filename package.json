@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@dazn/acc-sdk-design-system": "^1.3.0",
-    "@emotion/react": "^11.10.0",
+    "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.10.1",
     "@shoelace-style/shoelace": "^2.0.0-beta.81",
