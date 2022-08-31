@@ -1,7 +1,10 @@
 import { Input } from 'antd';
+import './TextInput.antd.css';
 
-export const TextInput: React.FC = () => {
+export const TextInput: React.FC = (props) => {
   return (
-      <Input />
+    <div className="textInputWrapper">
+      <Input className='textInputAntD' {...props} />
+    </div>
   );
 }

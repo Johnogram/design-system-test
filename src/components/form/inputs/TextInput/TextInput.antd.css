@@ -1,0 +1,22 @@
+.textInputAntD {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.textInputAntD:disabled {
+  cursor: not-allowed;
+}
+
+.textInputWrapper {
+  width: 100%;
+  padding: 10px;
+  cursor: text;
+
+  box-shadow: 0 2px 0 #ced0d2;
+}
+
+.textInputWrapper:focus-within {
+  box-shadow: 0 2px 0 #0c161c;
+}
